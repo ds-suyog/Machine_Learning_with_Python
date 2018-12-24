@@ -22,3 +22,7 @@ Sparkling Water is an integration of H2O into the Spark ecosystem. It facilitate
 What is PySparkling?
 
 PySparkling is an integration of Python with Sparkling Water. It allows user to start H2O services on a Spark cluster from Python API.
+
+
+Reference:
+http://docs.h2o.ai/sparkling-water/2.2/latest-stable/doc/pysparkling.html
