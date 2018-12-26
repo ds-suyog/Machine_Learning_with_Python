@@ -25,19 +25,47 @@ PySparkling is an integration of Python with Sparkling Water. It allows user to 
 
 
 === Used:   
-Python- 3.5   
-Anaconda- 4.2.0
-Spark- spark-2.2.0-bin-hadoop2.6 
-pysparkling- h2o_pysparkling_2.2
-pyspark- 2.2.0 (already included in h2o_pysparkling_2.2
+Python- 3.5     
+Anaconda- 4.2.0  
+Spark- spark-2.2.0-bin-hadoop2.6     
+pysparkling- h2o_pysparkling_2.2  
+pyspark- 2.2.0 (already included in h2o_pysparkling_2.2  
+   
+== dependencies:   
+colorama- 0.3.9  
+requests- 2.19.1   
+tabulate- 0.8.2  
+future- 0.16.0  
+six - 1.11.0  
+  
 
-== dependencies:
-colorama- 0.3.9
-requests- 2.19.1
-tabulate- 0.8.2
-future- 0.16.0
-six - 1.11.0
+
+========= Run PySparkling interactive shell  
+  
+1.  Ensure you are in the Sparkling Water project directory and run PySparkling  
+  bin/pysparkling  
+  
+The pysparkling shell accepts common pyspark arguments.  
+  
+For running on YARN and other supported platforms please see Running Sparkling Water on supported platforms.  
+  
+2.  Initialize H2OContext  
+  
+  from pysparkling import *  
+  import h2o  
+  hc = H2OContext.getOrCreate(spark)  
+   
+  Run IPython Notebook with PySparkling:  
+  $SPARKLING_WATER_HOME/bin/pysparkling    
+  PARK_DRIVER_PYTHON="ipython" PYSPARK_DRIVER_PYTHON_OPTS="notebook"  
+  or  
+  PYSPARK_DRIVER_PYTHON="ipython" PYSPARK_DRIVER_PYTHON_OPTS="notebook" $SPARKLING_WATER_HOME/bin/pysparkling    
+  
+
+
 
 Reference:   
 http://docs.h2o.ai/sparkling-water/2.2/latest-stable/doc/pysparkling.html    
-   
+ 
+
+
