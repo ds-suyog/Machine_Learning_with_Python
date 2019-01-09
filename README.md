@@ -37,8 +37,12 @@ requests- 2.19.1
 tabulate- 0.8.2  
 future- 0.16.0  
 six - 1.11.0  
+    
+------ Setting up PySparkling  
+conda install -c gekas h2o_pysparkling_2.2        
+link: https://anaconda.org/GeKas/h2o_pysparkling_2.2     
   
-
+ 
 
 ========= Run PySparkling interactive shell  
   
