@@ -42,7 +42,12 @@ six - 1.11.0
 conda install -c gekas h2o_pysparkling_2.2        
 link: https://anaconda.org/GeKas/h2o_pysparkling_2.2     
   
- 
+------ required dependencies:   
+conda install -c anaconda colorama  
+conda install -c anaconda requests  
+conda install -c conda-forge tabulate   
+conda install -c anaconda future  
+conda install -c anaconda six  
 
 ========= Run PySparkling interactive shell  
   
