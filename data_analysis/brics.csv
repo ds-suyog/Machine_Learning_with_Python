@@ -1,0 +1,6 @@
+,area,capital,country,interests,population,variants
+0,8.516,Brasilia,Brazil,python,200.4,PySpark
+1,17.1,Moscow,Russia,data analytics,143.5,sparkR
+2,3.286,New Dehli,India,statistical analysis,1252.0,sparklyr
+3,9.597,Beijing,China,cloud computing,1357.0,Sparkling Water
+4,1.221,Pretoria,South Africa,problem solving,52.98,pyCUDA
