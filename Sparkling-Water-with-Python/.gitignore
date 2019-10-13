@@ -89,10 +89,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-<<<<<<< HEAD
-venv35/
-=======
->>>>>>> repo-a/master
 
 # Spyder project settings
 .spyderproject

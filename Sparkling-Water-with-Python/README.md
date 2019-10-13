@@ -1,16 +1,4 @@
-
-# Data Anaalytics with_Python
-=======
-
-
-
-
-
-
-
-
-
-# SPARKLING-WATER-WITH-PYTHON
+# Sparkling-Water-with-Python
 
 Sparkling Water allows users to combine the fast, scalable machine learning algorithms of H2O with the capabilities of Spark. Spark is an elegant and powerful general-purpose, open-source, in-memory platform with tremendous momentum. H2O is an in-memory platform for machine learning that is reshaping how people apply math and predictive analytics to their business problems. Integrating these two open-source environments provides a seamless experience for users who want to make a query using Spark SQL, feed the results into H2O to build a model and make predictions, and then use the results again in Spark. For any given problem, better interoperability between tools provides a better experience.
 
@@ -83,6 +71,10 @@ For running on YARN and other supported platforms please see Running Sparkling W
   PYSPARK_DRIVER_PYTHON="ipython" PYSPARK_DRIVER_PYTHON_OPTS="notebook" $SPARKLING_WATER_HOME/bin/pysparkling    
   
 
+
+
 Reference:   
 http://docs.h2o.ai/sparkling-water/2.2/latest-stable/doc/pysparkling.html    
+ 
+
 
